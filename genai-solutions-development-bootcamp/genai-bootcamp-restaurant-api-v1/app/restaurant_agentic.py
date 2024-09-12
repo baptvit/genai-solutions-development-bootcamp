@@ -40,7 +40,7 @@ def filter_restaurants_by_type_rating(type_of_food: str, rating: float) -> str:
     #return "Restaurant flor de liz" 
 tools = [filter_restaurants_by_type_rating]
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDx6Z46t0iu-TUzfFLYijX4AYY9aKCSO88"
+os.environ["GOOGLE_API_KEY"] = ""
 
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, ToolMessage
